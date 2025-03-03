@@ -6,14 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Akara',
+  title: 'Kaidoh',
   tagline: 'Never Knows Best',
-  url: 'https://messiahhh.github.io/',
+  url: 'https://kaidohTips.github.io/',
   baseUrl: '/blog/', 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'messiahhh', // Usually your GitHub org/user name.
+  organizationName: 'kaidohTips', // Usually your GitHub org/user name.
   projectName: 'blog', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   plugins: ['@docusaurus/theme-live-codeblock'],
@@ -64,7 +64,7 @@ const config = {
       },
       announcementBar: {
         id: 'support_us',
-        content: '⭐️ 如果这个网站能帮助到你，欢迎给一个star支持作者  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Messiahhh/blog">GitHub</a>',
+        content: '⭐️<a target="_blank" rel="noopener noreferrer" href="https://github.com/KaidohTips/blog">GitHub</a>',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
@@ -85,7 +85,7 @@ const config = {
           },
           {to: 'blog/面经', label: '面经', position: 'right'},
           {
-            href: 'https://github.com/messiahhh/blog',
+            href: 'https://github.com/kaidohTips/blog',
             label: 'GitHub',
             position: 'right',
           },
@@ -107,7 +107,7 @@ const config = {
         // Public API key: it is safe to commit it
         apiKey: 'd3f9fff64e1510e7299229fb32996203',
     
-        indexName: 'messiahhh',
+        indexName: 'kaidohTips',
       }
     }),
 };
